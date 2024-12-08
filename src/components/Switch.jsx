@@ -7,8 +7,6 @@ const Switch = () => {
   setTogglei(!isTogglei);
  };
 
- //  console.log(isTogglei);
-
  return (
   <div className="h-screen flex justify-center items-center ">
    <div onClick={handleClickToggle} className=" w-5xl">
